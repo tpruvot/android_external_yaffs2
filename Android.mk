@@ -77,7 +77,6 @@ LOCAL_CFLAGS+=   -Wmissing-prototypes -Wredundant-decls -Wnested-externs -Winlin
 LOCAL_CFLAGS+=   -DS_IWRITE=0200 -DS_IREAD=0400
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/yaffs2
 LOCAL_CFLAGS += -Dmain=unyaffs_main
-
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
@@ -101,3 +100,4 @@ LOCAL_CFLAGS+=   -Wmissing-prototypes -Wredundant-decls -Wnested-externs -Winlin
 LOCAL_CFLAGS+=   -DS_IWRITE=0200 -DS_IREAD=0400
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/yaffs2
 include $(BUILD_HOST_EXECUTABLE)
+
